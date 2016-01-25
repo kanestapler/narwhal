@@ -13,10 +13,12 @@ public class Argument <T>{
     protected Datatype dataType;
     protected List<String> restrictions;
     protected String defaultValue;
+	private String testVar;
     
     public Argument(){
         name = "";
         defaultValue = "";
+		testVar = "";
         restrictions = new ArrayList<>();
     }
     
